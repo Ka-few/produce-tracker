@@ -1,0 +1,70 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.app {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 2rem;
+}
+
+form {
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+.produce-log {
+  border-left: 4px solid #4caf50;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f1f8e9;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.produce-log p {
+  margin: 4px 0;
+}
+
+.qr-section {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+

@@ -1,0 +1,57 @@
+{
+  "farmers": [
+    {
+      "id": 1,
+      "name": "Francis Njoroge",
+      "location": "Nakuru, Kenya"
+    }
+  ],
+  "produce": [
+    {
+      "id": 101,
+      "name": "Tomatoes",
+      "farmerId": 1,
+      "harvestDate": "2025-07-29",
+      "batchId": "TMT-101-NKR",
+      "status": "On Sale",
+      "logs": [
+        {
+          "stage": "Harvested",
+          "location": "Nakuru",
+          "timestamp": "2025-07-29"
+        },
+        {
+          "stage": "Transported",
+          "location": "Naivasha",
+          "timestamp": "2025-07-30"
+        },
+        {
+          "stage": "Retail",
+          "location": "Nairobi",
+          "timestamp": "2025-08-01"
+        }
+      ]
+    },
+    {
+      "id": 1753776001173,
+      "batchId": "PRD-1753776001173",
+      "name": "Lettuce",
+      "farmerName": "Mary",
+      "location": "Rongai",
+      "harvestDate": "2025-07-29",
+      "logs": [
+        {
+          "stage": "Harvested",
+          "location": "Rongai",
+          "timestamp": "2025-07-29T08:00:01.173Z"
+        },
+        {
+          "stage": "Retail",
+          "location": "Nakuru",
+          "timestamp": "2025-07-29T08:00:18.125Z"
+        }
+      ],
+      "status": "Retail"
+    }
+  ]
+}
